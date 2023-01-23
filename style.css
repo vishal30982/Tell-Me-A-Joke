@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background: url('https://source.unsplash.com/random/900×700/?joke') no-repeat center center/cover;
+  opacity: 0.6;
+}
+.joke{
+  border-width: 7px;
+  border-style: solid;
+  border-image: linear-gradient(to right, red, blue, green, orange, pink, blueviolet, violet, purple, indianred, tomato, cyan ) 1;
+  width: 90vw;
+  height: 90vh;
+  border-radius: 10px;
+  background-color: rgba(96, 126, 98, 0.4);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-family: Rowdies;
+  margin: 0;
+  padding: 0;
+}
