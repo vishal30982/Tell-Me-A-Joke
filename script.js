@@ -50,3 +50,10 @@ let jokes = [`What do kids play when their mom is using the phone? Bored games`,
 `What’s brown and sticky? A stick`]
 let joke = jokes[Math.floor(Math.random() * jokes.length)];
 document.querySelector('h1').innerHTML = '"' + joke + '"'
+let Arrow_mode = () => {
+  document.querySelector('.arrow').style.display = 'block'
+  document.querySelector('.arrow-mode').style.display = 'none'
+}
+let Arrow_click = () => {
+  document.querySelector('h1').innerHTML = '"' + joke + '"'
+}
