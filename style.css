@@ -29,6 +29,7 @@ html, body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 h1{
   color: white;
@@ -38,4 +39,33 @@ h1{
   font-family: Rowdies;
   margin: 0;
   padding: 0;
+}
+.arrow-mode{
+  position: absolute;
+  bottom: 10%;
+  color: yellow;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.arrow{
+  margin: 0;
+  padding: 0;
+  display: none;
+  margin-top: 10px;
+  height: 15%;
+  width: 100%;
+  border: none;
+  font-size: 30px;
+  background-color: yellow;
+}
+@media (max-width: 288px){
+  .arrow{
+    height: 4%;
+    font-size: 10px;
+}
+@media (max-width: 425px) and (min-width: 288px){
+  .arrow{
+    height: 10%;
+    font-size: 20px;
+  }
 }
